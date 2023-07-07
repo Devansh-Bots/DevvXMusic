@@ -9,7 +9,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+                text="𝐀ᴅᴅ ᴛᴏ ᴇɴJᴏʏ ᴍᴜsɪᴄ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
@@ -30,26 +30,26 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+                text="𝐀ᴅᴅ ᴛᴏ ᴇɴJᴏʏ ᴍᴜsɪᴄ ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="ʜᴇʟᴩ", callback_data="settings_back_helper"
+                text="𝐂ᴏᴍᴍᴀɴᴅs", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="🤍 sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ 🤍", url=config.SUPPORT_GROUP
+                text="🍁 𝐂ʜᴀᴛ ʜᴇʀᴇ 🍁", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🖤 ᴍᴀɪɴᴛᴀɪɴᴇʀ 🖤", user_id=OWNER
+                text="🎄 𝐎ᴡɴᴇʀ 🎄", user_id=OWNER
             )
         ],
         [
             InlineKeyboardButton(
-                text="sᴏᴜʀᴄᴇ", url=config.UPSTREAM_REPO
+                text="🥂 𝐔ᴘᴅᴀᴛᴇs 🥂", url=f"https://t.me/DevanshXBots"
             )
         ],
      ]
