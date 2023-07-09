@@ -48,7 +48,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("Heartless_Talks")
+                await self.one.join_chat("DevanshXBotChats")
                 await self.one.join_chat("DevanshXBots")
             except:
                 pass
@@ -59,7 +59,7 @@ class Userbot(Client):
             self.one.mention = get_me.mention
             assistantids.append(get_me.id)
             self.one.name = get_me.first_name + (get_me.last_name or "")
-            
+
             try:
                 await self.one.send_message(
                     config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.one.id}`\n❄ ɴᴀᴍᴇ : {self.one.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username}"
@@ -75,7 +75,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("Heartless_Talks")
+                await self.two.join_chat("DevanshXBotChats")
                 await self.two.join_chat("DevanshXBots")
             except:
                 pass
@@ -86,7 +86,7 @@ class Userbot(Client):
             self.two.mention = get_me.mention
             assistantids.append(get_me.id)
             self.two.name = get_me.first_name + (get_me.last_name or "")
-            
+
             try:
                 await self.two.send_message(
                     config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛᴡᴏ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.two.id}`\n❄ ɴᴀᴍᴇ : {self.two.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.two.username}"
@@ -102,7 +102,7 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("Heartless_Talks")
+                await self.three.join_chat("DevanshXBotChats")
                 await self.three.join_chat("DevanshXBots")
             except:
                 pass
@@ -113,7 +113,7 @@ class Userbot(Client):
             self.three.mention = get_me.mention
             assistantids.append(get_me.id)
             self.three.name = get_me.first_name + (get_me.last_name or "")
-            
+
             try:
                 await self.three.send_message(
                     config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛʜʀᴇᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.three.id}`\n❄ ɴᴀᴍᴇ : {self.three.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.three.username}"
@@ -129,7 +129,7 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("Heartless_Talks")
+                await self.four.join_chat("DevanshXBotChats")
                 await self.four.join_chat("DevanshXBots")
             except:
                 pass
@@ -140,7 +140,7 @@ class Userbot(Client):
             self.four.mention = get_me.mention
             assistantids.append(get_me.id)
             self.four.name = get_me.first_name + (get_me.last_name or "")
-            
+
             try:
                 await self.four.send_message(
                     config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ғᴏᴜʀ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.four.id}`\n❄ ɴᴀᴍᴇ : {self.four.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.four.username}"
@@ -156,7 +156,7 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("Heartless_Talks")
+                await self.five.join_chat("DevanshXBotChats")
                 await self.five.join_chat("DevanshXBots")
             except:
                 pass
@@ -167,7 +167,7 @@ class Userbot(Client):
             self.five.mention = get_me.mention
             assistantids.append(get_me.id)
             self.five.name = get_me.first_name + (get_me.last_name or "")
-            
+
             try:
                 await self.five.send_message(
                     config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ғɪᴠᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.five.id}`\n❄ ɴᴀᴍᴇ : {self.five.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.five.username}"
@@ -180,4 +180,3 @@ class Userbot(Client):
             LOGGER(__name__).info(
                 f"Assistant Five Started as {self.five.name}"
             )
-         
